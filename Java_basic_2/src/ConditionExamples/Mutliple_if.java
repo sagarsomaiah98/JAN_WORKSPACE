@@ -12,8 +12,9 @@ public class Mutliple_if
 		
 		if(a>b)
 		{
+			//true 
 			if(a>c)
-			{
+			{//true
 				if(a>d)
 				{
 					
