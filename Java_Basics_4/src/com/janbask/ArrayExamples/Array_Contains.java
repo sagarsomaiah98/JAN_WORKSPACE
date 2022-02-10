@@ -12,7 +12,7 @@ String[] stud= {"marks","steve","jenny","kevin"};
 
 //System.out.println(stud[3]);
 		
-	System.out.println(Arrays.asList(stud).contains("john"));//true
+	System.out.println(Arrays.asList(stud).contains("marks"));//true
 	//System.out.println(Arrays.asList(stud).contains("henry"));//false
 	
 	
