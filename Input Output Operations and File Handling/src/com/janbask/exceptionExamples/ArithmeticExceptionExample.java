@@ -8,6 +8,7 @@ public class ArithmeticExceptionExample {
          int b = 0;
          int c = a/b;  // cannot divide by zero
          System.out.println ("Result = " + c);
+         System.out.println("eND OF THE PROGRAM");
 
 	}
 
