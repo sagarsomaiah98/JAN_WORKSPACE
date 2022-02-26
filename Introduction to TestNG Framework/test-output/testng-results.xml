@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-25T19:48:46 GMT-05:00" name="Default suite" finished-at="2022-02-25T19:48:46 GMT-05:00" duration-ms="57">
+  <suite started-at="2022-02-25T20:55:06 GMT-05:00" name="Suite" finished-at="2022-02-25T20:55:06 GMT-05:00" duration-ms="66">
     <groups>
     </groups>
-    <test started-at="2022-02-25T19:48:46 GMT-05:00" name="Default test" finished-at="2022-02-25T19:48:46 GMT-05:00" duration-ms="57">
-      <class name="Sample">
-        <test-method signature="test()[pri:0, instance:Sample@61d6015a]" started-at="2022-02-25T19:48:46 GMT-05:00" name="test" finished-at="2022-02-25T19:48:46 GMT-05:00" duration-ms="12" status="PASS">
+    <test started-at="2022-02-25T20:55:06 GMT-05:00" name="Test" finished-at="2022-02-25T20:55:06 GMT-05:00" duration-ms="66">
+      <class name="com.janbask.tests.LoginTest">
+        <test-method signature="logintest()[pri:0, instance:com.janbask.tests.LoginTest@776b83cc]" started-at="2022-02-25T20:55:06 GMT-05:00" name="logintest" finished-at="2022-02-25T20:55:06 GMT-05:00" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- Sample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- logintest -->
+      </class> <!-- com.janbask.tests.LoginTest -->
+      <class name="com.janbask.tests.LogoutTest">
+        <test-method signature="logoutTest()[pri:0, instance:com.janbask.tests.LogoutTest@1f97cf0d]" started-at="2022-02-25T20:55:06 GMT-05:00" name="logoutTest" finished-at="2022-02-25T20:55:06 GMT-05:00" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- com.janbask.tests.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

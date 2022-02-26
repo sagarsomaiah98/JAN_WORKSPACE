@@ -1904,3 +1904,509 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 62299 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--623952802\testng-customsuite.xml
 java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 62299 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--623952802\testng-customsuite.xml
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:03.871
+!MESSAGE Using unsafe http transport to retrieve http://dl.bintray.com/testng-team/testng-p2-release/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-25 20:12:04.440
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCache(CacheManager.java:249)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.getLocalFile(SimpleMetadataRepositoryFactory.java:69)
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:89)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2022-02-25 20:12:04.442
+!MESSAGE HTTP Server 'Bad Gateway' : http://dl.bintray.com/testng-team/testng-p2-release/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 502.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:278)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:71)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 2 org.eclipse.ecf.identity 4 0 2022-02-25 20:12:04.443
+!MESSAGE HttpComponents connection error response code 502.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:04.504
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:04.878
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.11.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:05.132
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.11.0.r201704240320, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:05.246
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.12.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:05.456
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.12.0.r201709030044, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:05.621
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.13.1, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:05.993
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040202, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:06.098
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.13.1.r201712040515, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:06.209
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.2, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:06.421
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.2.r201802161450, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:06.569
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/6.14.3, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:06.918
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/6.14.3.r201802240500, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:07.023
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.0.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:07.287
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.0.0.r201908191551, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:07.385
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.1.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:07.618
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.1.0.r202001120626, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:07.717
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.2.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.002
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.2.0.r202003151902, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.102
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.3.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.333
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.3.0.r202008060316, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.439
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.4.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.641
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.4.0.r202105021533, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:08.809
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/7.5.0, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:09.155
+!MESSAGE Using unsafe http transport to retrieve http://testng.org/testng-p2-update-site/updatesites/7.5.0.r202201070709, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:16.176
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:20.481
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/content.xml.xz, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:22.629
+!MESSAGE Using unsafe http transport to retrieve http://download.eclipse.org/technology/m2e/releases/, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-25 20:12:29.028
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://download.eclipse.org/technology/m2e/releases/.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:405)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:387)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:278)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-02-25 20:12:29.028
+!MESSAGE No repository found at http://download.eclipse.org/technology/m2e/releases/.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-02-25 20:12:36.766
+!MESSAGE Using unsafe http transport to retrieve http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549, see CVE-2021-41033. Consider using https instead.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-02-25 20:12:41.318
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:129)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.IOException: http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549 is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	... 16 more
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1002 2022-02-25 20:12:41.318
+!MESSAGE Unable to read repository at http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549.
+!STACK 0
+java.io.IOException: http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549 is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:787)
+	at jdk.internal.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:447)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:230)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:519)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:126)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:110)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$1.runModal(PreloadingRepositoryHandler.java:84)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:188)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:17:27.400
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61362 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--585951317\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 61362 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--585951317\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:18:04.612
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61364 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--151322977\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar org.testng.remote.RemoteTestNG -serport 61364 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--151322977\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:24:34.010
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63691 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-1437627563\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 63691 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-1437627563\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:30:16.737
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50118 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-240195396\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 50118 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-240195396\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:31:31.247
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 58856 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-319761798\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 58856 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-319761798\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:33:05.869
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52181 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-754032748\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 52181 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-754032748\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:34:58.782
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65067 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--2143341009\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 65067 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--2143341009\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:36:02.368
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50126 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-870705254\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 50126 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-870705254\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:39:14.541
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50370 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1577792418\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 50370 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1577792418\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:40:15.657
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50422 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-527476942\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 50422 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-527476942\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:40:45.581
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50437 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1863337399\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 50437 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1863337399\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:42:22.254
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56656 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--427521258\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 56656 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--427521258\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:43:50.401
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 56817 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-1718177386\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 56817 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-1718177386\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:46:36.131
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62377 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-667057070\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 62377 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-667057070\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:50:17.768
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62502 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1892971810\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 62502 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse--1892971810\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:50:48.864
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64122 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-2115604386\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 64122 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-2115604386\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:51:12.799
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64135 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-214975468\testng-customsuite.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 64135 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output C:\Users\somai\AppData\Local\Temp\testng-eclipse-214975468\testng-customsuite.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-25 20:52:28.103
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverRegion(LSPTextHover.java:150)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverRegion(CompositeTextHover.java:101)
+	at org.eclipse.jface.text.TextViewerHoverManager.computeInformation(TextViewerHoverManager.java:128)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$MouseTracker.mouseHover(AbstractHoverInformationControlManager.java:511)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:212)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-25 20:52:28.608
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
+	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:52:54.979
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64185 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\testng.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 64185 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\testng.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-25 20:53:58.448
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-25 20:54:31.871
+!MESSAGE TimeoutException
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.getCompletionProposalAutoActivationCharacters(LSContentAssistProcessor.java:274)
+	at org.eclipse.jface.text.contentassist.IContentAssistProcessorExtension$1.isCompletionProposalAutoActivation(IContentAssistProcessorExtension.java:115)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.getAutoActivationTriggerType(ContentAssistant.java:1233)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.keyPressed(ContentAssistant.java:345)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$AutoAssistListener.verifyKey(ContentAssistant.java:374)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:480)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:773)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6248)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5932)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1069)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1111)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1107)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1536)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4875)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:345)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4753)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5002)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1154)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1045)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.testng.eclipse 1 0 2022-02-25 20:55:05.229
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 57032 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\testng.xml
+java -ea -classpath C:\Users\somai\eclipse\java-2021-12\eclipse\configuration\org.eclipse.osgi\432\0\.cp\lib\testng-remote.jar:S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\bin:C:\Users\somai\.p2\pool\plugins\org.testng_7.4.0.r202105021533.jar:C:\Users\somai\.p2\pool\plugins\com.beust.jcommander_1.78.0.jar:C:\Users\somai\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\somai\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\somai\.p2\pool\plugins\org.webjars.jquery_3.5.1.jar:S:\JANBASK\JAN_WORKSPACE\JARS\selenium-server-4.1.2.jar org.testng.remote.RemoteTestNG -serport 57032 -protocol json -d S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\test-output S:\JANBASK\JAN_WORKSPACE\Introduction to TestNG Framework\testng.xml
+
+!ENTRY org.eclipse.lsp4e 4 0 2022-02-25 20:55:38.029
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$13(LanguageServerWrapper.java:425)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$4(LanguageServerWrapper.java:260)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
