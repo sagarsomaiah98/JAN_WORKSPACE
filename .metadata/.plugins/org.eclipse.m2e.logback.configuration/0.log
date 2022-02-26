@@ -596,3 +596,7 @@
 2022-02-24 20:50:44,624 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Excel_Parameterization\src\main\resources
 2022-02-24 20:50:44,626 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-24 20:50:44,626 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Excel_Parameterization\src\test\resources
+2022-02-24 20:56:13,707 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-24 20:56:13,707 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Excel_Parameterization\src\main\resources
+2022-02-24 20:56:13,709 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-24 20:56:13,709 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Excel_Parameterization\src\test\resources
