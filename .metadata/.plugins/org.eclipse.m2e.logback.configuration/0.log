@@ -601,3 +601,176 @@
 2022-02-24 20:56:13,709 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-02-24 20:56:13,709 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Excel_Parameterization\src\test\resources
 2022-02-25 19:42:39,144 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-02-28 19:29:26,653 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-02-28 20:09:26,855 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\pom.xml
+2022-02-28 20:09:29,983 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sauce_Framework:Sauce_Framework:0.0.1-SNAPSHOT @ S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\pom.xml.
+2022-02-28 20:09:30,400 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sauce_Framework/src/main/java
+2022-02-28 20:09:30,404 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Sauce_Framework/src/test/java
+2022-02-28 20:09:30,488 [Worker-5: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2022-02-28 20:09:31,606 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:09:31,607 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:09:31,610 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:09:31,610 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:10:52,766 [Worker-21: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Sauce_Framework:Sauce_Framework:0.0.1-SNAPSHOT @ S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\pom.xml.
+2022-02-28 20:10:54,635 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:54,635 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:10:54,640 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:54,640 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:10:56,324 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:56,325 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:10:56,326 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:56,326 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:10:56,605 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/testng/testng/7.5/testng-7.5-sources.jar
+2022-02-28 20:10:57,727 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/testng/testng/7.5/testng-7.5-sources.jar
+2022-02-28 20:10:57,787 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.testng:testng:7.5
+2022-02-28 20:10:58,673 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
+2022-02-28 20:10:59,111 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1-sources.jar
+2022-02-28 20:10:59,198 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.google.code.findbugs:jsr305:3.0.1
+2022-02-28 20:10:59,660 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:59,660 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:10:59,662 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:10:59,663 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:11:21,266 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:11:21,266 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:11:21,268 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:11:21,269 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:11:26,120 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:11:26,120 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:11:26,123 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:11:26,124 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:16:13,120 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:13,121 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:16:13,124 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:13,125 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:16:23,107 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:23,107 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:16:23,112 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:23,113 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:16:34,698 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:34,699 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:16:34,702 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:34,703 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:16:49,444 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:49,445 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:16:49,447 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:16:49,447 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:17:02,091 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:17:02,091 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:17:02,092 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:17:02,093 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:17:28,949 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:17:28,950 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:17:28,951 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:17:28,952 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:18:32,192 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:18:32,193 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:18:32,195 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:18:32,196 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:21:00,944 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:00,944 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:21:00,946 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:00,947 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:21:27,147 [Worker-26: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:27,148 [Worker-26: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:21:27,150 [Worker-26: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:27,151 [Worker-26: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:21:52,866 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:52,866 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:21:52,869 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:21:52,869 [Worker-29: Launching ReadProperties] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:23:25,976 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:23:25,976 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:23:25,978 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:23:25,978 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:26:05,024 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:05,024 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:26:05,025 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:05,026 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:26:09,536 [Worker-30: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:09,536 [Worker-30: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:26:09,537 [Worker-30: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:09,538 [Worker-30: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:26:27,980 [Worker-29: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:27,981 [Worker-29: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:26:27,983 [Worker-29: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:26:27,984 [Worker-29: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:27:02,223 [Worker-22: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:27:02,223 [Worker-22: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:27:02,224 [Worker-22: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:27:02,225 [Worker-22: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:27:44,583 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:27:44,584 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:27:44,585 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:27:44,585 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:35:14,912 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:35:14,913 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:35:14,914 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:35:14,914 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:36:06,766 [Worker-25: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:36:06,766 [Worker-25: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:36:06,770 [Worker-25: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:36:06,770 [Worker-25: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:36:24,815 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:36:24,815 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:36:24,816 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:36:24,816 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:37:17,175 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:37:17,175 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:37:17,177 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:37:17,177 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:39:51,538 [Worker-28: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:39:51,538 [Worker-28: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:39:51,541 [Worker-28: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:39:51,541 [Worker-28: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:40:39,780 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:40:39,781 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:40:39,783 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:40:39,783 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:41:40,239 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:41:40,240 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:41:40,242 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:41:40,242 [Worker-25: Launching AddToCart] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:45:38,868 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:45:38,868 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:45:38,869 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:45:38,870 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:45:49,913 [Worker-22: Launching Sauce_Framework_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:45:49,913 [Worker-22: Launching Sauce_Framework_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:45:49,915 [Worker-22: Launching Sauce_Framework_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:45:49,915 [Worker-22: Launching Sauce_Framework_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:46:24,528 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:46:24,529 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:46:24,531 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:46:24,531 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:48:27,206 [Worker-31: Launching Executing test in S__JANBASK_JAN_WORKSPACE_Sauce_Framework] INFO  o.e.m.i.launch.MavenLaunchDelegate - S:\JANBASK\JAN_WORKSPACE\Sauce_Framework
+2022-02-28 20:48:27,210 [Worker-31: Launching Executing test in S__JANBASK_JAN_WORKSPACE_Sauce_Framework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-02-28 20:49:10,276 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:49:10,276 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:49:10,278 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:49:10,278 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:49:41,738 [Worker-35: Launching Executing test in S__JANBASK_JAN_WORKSPACE_Sauce_Framework] INFO  o.e.m.i.launch.MavenLaunchDelegate - S:\JANBASK\JAN_WORKSPACE\Sauce_Framework
+2022-02-28 20:49:41,738 [Worker-35: Launching Executing test in S__JANBASK_JAN_WORKSPACE_Sauce_Framework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2022-02-28 20:51:04,859 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:51:04,859 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:51:04,861 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:51:04,861 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:52:27,192 [Worker-30: Launching TestUtil] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:52:27,192 [Worker-30: Launching TestUtil] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:52:27,194 [Worker-30: Launching TestUtil] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:52:27,195 [Worker-30: Launching TestUtil] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:55:32,229 [Worker-33: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:55:32,229 [Worker-33: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:55:32,231 [Worker-33: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:55:32,231 [Worker-33: Launching LoginTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:55:50,927 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:55:50,927 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:55:50,928 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:55:50,928 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:56:26,344 [Worker-40: Launching AddToCartTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:56:26,345 [Worker-40: Launching AddToCartTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:56:26,347 [Worker-40: Launching AddToCartTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:56:26,347 [Worker-40: Launching AddToCartTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
+2022-02-28 20:56:45,671 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:56:45,671 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\main\resources
+2022-02-28 20:56:45,673 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-02-28 20:56:45,673 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory S:\JANBASK\JAN_WORKSPACE\Sauce_Framework\src\test\resources
